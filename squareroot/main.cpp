@@ -80,9 +80,7 @@ int main(void){
 
 	string link;
 	stringstream stream;
-	stream << "start \"\" http://www.wolframalpha.com/input/?i=sqrt%28";
-	stream << insert;
-	stream << "%29";
+	stream << "start \"\" http://www.wolframalpha.com/input/?i=sqrt%28" << insert << "%29";
 
 	link = stream.str();
 
