@@ -13,7 +13,7 @@ using std::string;
 using std::stringstream;
 
 int main(void){
-	long double insert;
+	long long int insert;
 
 	cout << "숫자를 쳐라 : ";
 	if(!(cin >> insert)){
